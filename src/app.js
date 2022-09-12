@@ -51,16 +51,16 @@ window.onload = function() {
 
 function getDomain(pronoun, adj, noun, domain) {
   for (let i = 0; i < pronoun.length; i++) {
-    //for "pronoun"
+    //for loop "pronoun"
     for (let j = 0; j < adj.length; j++) {
-      //for "adj"
+      //for loop "adj"
       for (let k = 0; k < noun.length; k++) {
-        //for "noun"
-        for (let v = 0; v < domain.length; v++) {
-          //for "domain"
+        //for loop "noun"
+        for (let l = 0; l < domain.length; l++) {
+          //for loop "domain"
 
-          console.log(pronoun[i] + adj[j] + noun[k] + domain[v]);
-          //this will print "i", "j", "k", "x" sequentially untill every possible combination is done
+          console.log(pronoun[i] + adj[j] + noun[k] + domain[l]);
+          //this will print "i", "j", "k", "l" sequentially until every possible combination is done (for loop = false)
         }
       }
     }
